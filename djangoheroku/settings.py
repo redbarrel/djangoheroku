@@ -26,7 +26,11 @@ SECRET_KEY = 'django-insecure-rmb(q#*4q&%fb#boyym!411sz1&lz-ki5a1k&0ahg4abj-aft^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'kitsawat-django.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1',
+    'kitsawat-django.herokuapp.com',
+    'kitsawat-django.herokuapp.com/'
+    'https://kitsawat-django.herokuapp.com',
+    'https://kitsawat-django.herokuapp.com/']
 
 
 # Application definition
